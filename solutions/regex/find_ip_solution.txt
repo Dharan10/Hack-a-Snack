@@ -1,0 +1,8 @@
+# Solution: Regex to extract all IP addresses
+
+Regex: (\d{1,3}\.){3}\d{1,3}
+
+Matches:
+192.168.0.10
+10.0.0.5
+172.16.4.22

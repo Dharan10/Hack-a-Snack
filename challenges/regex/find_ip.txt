@@ -1,0 +1,5 @@
+# Task: Extract all IP addresses from the given log.
+
+[INFO] Connection from 192.168.0.10
+[INFO] Connection from 10.0.0.5
+[ERROR] Failed login from 172.16.4.22
