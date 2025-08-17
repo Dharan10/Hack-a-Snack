@@ -8,22 +8,42 @@ This repo will also serve as a **CTF mini-challenge archive**, and challenges ma
 
 ## 📂 Repository Structure
 
+
 ```
 Hack-a-Snack/
 │
 ├── README.md                # Main project overview
 ├── CONTRIBUTING.md          # Guidelines for contributors
+├── LICENSE                  # Open source license
+├── .gitignore               # Git ignore rules
+├── CODE_OF_CONDUCT.md       # Community standards
+├── SECURITY.md              # Security policy
+├── disclaimer.md            # Legal disclaimer
+├── .github/                 # GitHub templates & workflows
+│   ├── ISSUE_TEMPLATE/      # Issue templates
+│   │   ├── challenge-proposal.md
+│   │   └── solution-submission.md
+│   └── PULL_REQUEST_TEMPLATE.md
 ├── challenges/              # All challenge files
+│   ├── TEMPLATE.md          # Challenge template
 │   ├── python/              # Python-based challenges
-│   │   └── example1.py
+│   │   └── reverse_string.py
 │   ├── regex/               # Regex/log analysis puzzles
-│   │   └── example1.txt
+│   │   └── find_ip.txt
 │   ├── crypto/              # Cryptography challenges
-│   │   └── example1.md
+│   │   └── caesar_shift.md
 │   └── web/                 # Web/appsec mini challenges
-│       └── example1.md
+│       └── sql_injection.md
 └── solutions/               # Solutions for each challenge
-    └── (mirrors challenge folders)
+    ├── TEMPLATE.md          # Solution template
+    ├── python/
+    │   └── reverse_string_solution.py
+    ├── regex/
+    │   └── find_ip_solution.txt
+    ├── crypto/
+    │   └── caesar_shift_solution.md
+    └── web/
+        └── sql_injection_solution.md
 ```
 
 ---
@@ -114,7 +134,6 @@ solutions/web/sql_injection_solution.md
 ## 🙌 Credits
 
 * Maintained by: **Dharan Ragunathan**
-* Project idea co-created with **ChatGPT (OpenAI)**
 * Contributors: [![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors-)
 
 ---
